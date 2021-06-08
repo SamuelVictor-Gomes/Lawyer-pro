@@ -1,0 +1,240 @@
+/*font-family: 'Montserrat', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+header{
+    padding: 1% 0%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #204f87;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.banner{
+    background-image: url(../images/banner.png);
+    min-height: 80vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.banner h1{
+    font-size: 56px;
+    color: #fff;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+}
+@keyframes updown{
+    0%{
+        top: 80%;
+    }
+    100%{
+        top: 85%;
+    }
+}
+.banner-icon{
+    position: absolute;
+    color: #fff;
+    font-size: 25px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%, 0%);
+    animation: updown 1s linear infinite;
+    animation-direction: alternate;
+}
+.who-we-are{
+    margin-top: 8%;
+    margin-bottom: 12%;
+}
+.right-wwr{
+    text-align: right;
+}
+.left-wwr{
+    padding: 2% 0%;
+}
+.left-wwr h1{
+    color: #204f87;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 60px;
+}
+.left-wwr p{
+    text-align: justify;
+    color:#b0b0b1;
+    font-size: 14px;
+    font-weight: 400;
+}
+.who-we-are hr {
+    width: 11%;
+    height: 1%;
+    color: #f2622c;
+    opacity: 100;
+}
+.what-we-do{
+    background-color: #f7f8f8;
+    
+}
+.wwd-img{
+    position: relative;
+}
+.wwd-img img{
+    width: 100%;
+}
+.what-we-do{
+    padding-top: 5%;
+    padding-bottom: 7%;
+    background-image: url(../images/wwd-bg.png);
+    background-repeat: no-repeat;
+    min-height: 80vh;
+    background-position: bottom right;
+    background-size: 62%;
+}
+.wwd-top{
+    text-align: center;
+}
+.wwd-top hr{
+    width: 7%;
+    height: 4%;
+    color: #f2622c;
+    opacity: 100;
+    margin: 0 auto;
+}
+.wwd-top h1{
+    color: #204f87;
+    font-size: 36px;
+    font-weight: bolder;
+    line-height: 60px;
+    padding-top: 2%;
+    padding-bottom: 7%;
+}
+.title-1{
+
+}
+.title-1 h5{
+    position: absolute;
+    left: 38%;
+    top: 48%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+}
+.title-1 i{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    font-size: 40px;
+    animation: left-right 1s forwards infinite;
+    animation-direction: alternate;
+}
+.title-2{
+
+}
+.title-2 h5{
+    position: absolute;
+    left: 16%;
+    top: 46%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.title-2 i{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    font-size: 40px;
+    animation: left-right 1s forwards infinite;
+    animation-direction: alternate;
+}
+
+.title-3{
+
+}
+.title-3 h5{
+    position: absolute;
+    left: 27%;
+    top: 46%;
+    color: #fff;
+    font-size: 23px;
+    font-weight: 600;
+    text-align: center;
+}
+.title-3 i{
+    color: #fff;
+    position: absolute;
+    top: 70%;
+    left: 45%;
+    font-size: 40px;
+    animation: left-right 1s forwards infinite;
+    animation-direction: alternate;
+}
+@keyframes left-right{
+    0%{
+        left: 45%;
+    }
+    100%{
+        left: 50%;
+    }
+}
+.our-attorneys{
+    background-image: url(../images/authority-bg.png);
+    padding: 10% 0%;
+}
+.oa img{
+    width: 100%;
+}
+.our-attorneys p{
+    color: #929dcf;
+    font-size: 14px;
+    line-height: 20px;
+}
+.our-attorneys hr{
+    width: 20%;
+    height: 1%;
+    color: #f2622c;
+    opacity: 100;
+}
+.our-attorneys h1{
+    color: #fff;
+    font-size: 36px;
+    font-weight: 600;
+}
+.our-attorneys h5{
+    font-size: 16px;
+    color: #f2622c;
+    padding-top: 10px;
+}
+.the-languages{
+
+}
+.the-languages hr{
+    margin: 0 auto;
+    width: 5%;
+    height: 7%;
+    color: #f2622c;
+    opacity: 100;
+
+}
+.the-languages h1{
+    color: #28377e;
+    font-size: 36px;
+    font-weight: 600;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 10px;
+}
+.tl-top{
+    padding: 10% 0% ;
+}
